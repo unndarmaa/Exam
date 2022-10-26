@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+h2{
+    font-size: 56px;
+    margin-bottom:0 ;
+}
+h3{
+    font-size: 28px;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #0066CC;
+    font-size: 21px;
+}
+/* ----------------------style of header start here----------- */
+header{
+    background-color: #000000CC;
+    height: 44px;
+    position: sticky;
+}
+header li{
+    list-style: none;
+}
+.container{
+    max-width: 1280px;
+    margin: auto;
+    width: 100%;
+}
+nav{
+    width: 80%;
+    color:#FFFFFF;
+}
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navItems{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* ----------------------- */
+article{
+
+}
+.back{
+    background-color: #FBFBFD;
+}
+.firstArticle{
+    width:50%;
+    height: 700px;
+    margin: auto;
+}
+.firstArticle .top{
+    width: 60%;
+    text-align: center;
+}
+.firstArticle .more{
+    display: flex;
+    justify-content: space-between;
+    width:40%;
+    margin: auto; 
+}
+.more{
+    display: flex;
+    justify-content: space-between;
+    width:30%;
+    margin: auto; 
+}
+/* -------------- */
+.pro-14{
+    background-color: black;
+}
+.pro{
+    background-image: url(/image/figure-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 870px;
+    height: 722px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+/* ------------- */
+.section-3{
+    display: flex;
+    justify-content: space-between;
+}
+.watch{
+    background-image: url(/image/figure\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 49.9%;
+    height: 580px;
+    color: white;
+    text-align: center;
+}
+.airPods{
+    background-image: url(/image/figure\ \(2\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 49.9%;
+    height: 580px;
+    color: white;
+    text-align: center;
+}
+/* ----- */
+.section-4{
+    display: flex;
+    justify-content: space-between;
+}
+.watch-2{
+    background-image: url(/image/figure\ \(3\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 49.9%;
+    height: 580px;
+    color:black;
+    text-align: center;
+}
+.fitness{
+    background-image: url(/image/figure\ \(4\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 49.9%;
+    height: 580px;
+    color:black;
+    text-align: center;
+}
+.macbook{
+    background-image: url(/image/figure\ \(5\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 49.9%;
+    height: 580px;
+    color:black;
+    text-align: center;
+}
+.card{
+    background-image: url(/image/figure\ \(6\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 49.9%;
+    height: 580px;
+    color:black;
+    text-align: center;
+}
